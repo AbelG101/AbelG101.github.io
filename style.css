@@ -10,3 +10,7 @@ a {
   display: flex;
   flex-direction: column;
 }
+.content {
+  padding: 0px 15px;
+  margin: 15px 0px;
+}
