@@ -31,3 +31,13 @@ header h1 {
   color: #1A2236;
   margin-bottom: 20px;
 }
+main p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1A2236;
+  margin-bottom: 30px;
+}
