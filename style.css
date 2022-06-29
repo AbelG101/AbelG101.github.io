@@ -14,3 +14,8 @@ a {
   padding: 0px 15px;
   margin: 15px 0px;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
