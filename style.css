@@ -6,3 +6,7 @@
 a {
   text-decoration: none;
 }
+.headline-section {
+  display: flex;
+  flex-direction: column;
+}
