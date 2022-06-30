@@ -18,7 +18,7 @@ a {
   margin: 15px 0;
 }
 
-nav {
+header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
@@ -38,7 +38,7 @@ header h1 {
   margin-bottom: 20px;
 }
 
-main p {
+p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
