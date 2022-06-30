@@ -1,36 +1,43 @@
 * {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
+
 a {
   text-decoration: none;
 }
+
 .headline-section {
   display: flex;
   flex-direction: column;
 }
+
 .content {
-  padding: 0px 15px;
-  margin: 15px 0px;
+  padding: 0 15px;
+  margin: 15px 0;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
+
 .menu-icon {
   margin-right: 10px;
 }
+
 header h1 {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
-  color: #1A2236;
+  color: #1a2236;
   margin-bottom: 20px;
 }
+
 main p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -38,22 +45,24 @@ main p {
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
-  color: #1A2236;
+  color: #1a2236;
   margin-bottom: 30px;
 }
+
 .start-collab-btn {
-  background: #1A2236;
+  background: #1a2236;
   padding: 15px;
   width: 100%;
   display: inline-block;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
 }
+
 footer img {
   width: 100%;
   margin-top: 20px;
