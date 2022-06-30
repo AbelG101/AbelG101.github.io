@@ -66,13 +66,13 @@ p {
 
 .start-collab-btn:hover {
   border: 1px solid #1a2236;
-  color:#1a2236 ;
+  color: #1a2236;
   background-color: #fff;
 }
 
 .start-collab-btn:active {
   border: 2px solid #1a2236;
-  color:#1a2236 ;
+  color: #1a2236;
   background-color: #fff;
 }
 
