@@ -209,3 +209,16 @@ footer img {
   padding:  50px 40px;
   position: relative;
 }
+
+.languages {
+  background-color: #1c528a;
+}
+
+.frameworks {
+  background-color: #e2505c;
+}
+
+.skills {
+  background-color: #febf52;
+}
+
