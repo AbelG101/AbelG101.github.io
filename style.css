@@ -203,3 +203,9 @@ footer img {
   height: 102px;
   width: 102px;
 }
+
+.about-section div {
+  margin: 20px 0;
+  padding:  50px 40px;
+  position: relative;
+}
