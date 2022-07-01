@@ -170,3 +170,18 @@ footer img {
 .about-section h1 {
   margin-top:  50px;
 }
+
+.about-section ul {
+  list-style-position: inside;
+  font-family: 'Poppins', sans-serif;
+  line-height: 30px;
+  color: #fff;
+  width: 100%;
+}
+
+.about-section ul li {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+}
