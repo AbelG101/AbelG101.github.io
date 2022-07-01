@@ -20,6 +20,7 @@ a {
 .headline-section {
   display: flex;
   flex-direction: column;
+  height: calc(100vh - 74px);
 }
 
 .content {
