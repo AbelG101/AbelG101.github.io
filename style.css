@@ -109,3 +109,12 @@ footer img {
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(1px);
 }
+
+.bottom-content h3 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+}
