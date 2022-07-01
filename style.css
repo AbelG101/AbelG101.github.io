@@ -157,8 +157,16 @@ footer img {
   padding: 0 15px;
 }
 
-.about-section a{
+.about-section .get-cv-btn{
   margin-bottom: 20px;
+}
+
+.get-cv-btn:hover {
+  background-color:  hsl(222, 31%, 30%);
+}
+
+.get-cv-btn:active {
+  background-color:  hsl(223, 40%, 12%);
 }
 
 .download-icon{
@@ -221,4 +229,3 @@ footer img {
 .skills {
   background-color: #febf52;
 }
-
