@@ -185,3 +185,13 @@ footer img {
   line-height: 27px;
   letter-spacing: -0.0525em;
 }
+
+.about-section div h3 {
+  font-family: 'Poppins';
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 20px 0;
+}
