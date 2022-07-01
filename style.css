@@ -158,26 +158,26 @@ footer img {
   padding: 0 15px;
 }
 
-.about-section .get-cv-btn{
+.about-section .get-cv-btn {
   margin-bottom: 20px;
 }
 
 .get-cv-btn:hover {
-  background-color:  hsl(222, 31%, 30%);
+  background-color: hsl(222, 31%, 30%);
 }
 
 .get-cv-btn:active {
-  background-color:  hsl(223, 40%, 12%);
+  background-color:hsl(223, 40%, 12%);
 }
 
-.download-icon{
-  width:24px ;
+.download-icon {
+  width: 24px ;
   height: 24px;
   float: right;
 }
 
 .about-section h1 {
-  margin-top:  50px;
+  margin-top: 50px;
 }
 
 .about-section ul {
@@ -205,7 +205,7 @@ footer img {
   margin: 20px 0;
 }
 
-.about-section ul  img {
+.about-section ul img {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -215,7 +215,7 @@ footer img {
 
 .about-section div {
   margin: 20px 0;
-  padding:  50px 40px;
+  padding: 50px 40px;
   position: relative;
 }
 
