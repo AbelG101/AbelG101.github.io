@@ -136,3 +136,9 @@ footer img {
   padding: 5px 10px;
   margin-right: 10px;
 }
+
+.see-project-btn {
+  padding: 10px 15px;
+  color: #fff;
+  border: 1px solid #fff;
+}
