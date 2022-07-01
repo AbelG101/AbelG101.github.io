@@ -103,3 +103,9 @@ footer img {
   width: 100%;
 }
 
+.projects-container .bottom-content {
+  padding: 20px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px);
+}
