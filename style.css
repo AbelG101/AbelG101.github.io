@@ -187,11 +187,19 @@ footer img {
 }
 
 .about-section div h3 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin: 20px 0;
+}
+
+.about-section ul  img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 102px;
+  width: 102px;
 }
