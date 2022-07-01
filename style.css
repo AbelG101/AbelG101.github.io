@@ -142,3 +142,13 @@ footer img {
   color: #fff;
   border: 1px solid #fff;
 }
+
+.see-project-btn:hover {
+  background: #fff;
+  color: #1a2236;
+}
+
+.see-project-btn:active {
+  background: #e6e6e6;
+  color: #111622;
+}
