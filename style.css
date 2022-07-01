@@ -118,3 +118,21 @@ footer img {
   font-size: 20px;
   line-height: 80%;
 }
+
+.bottom-content ul {
+  display: flex;
+  margin: 20px 5px 20px 0;
+}
+
+.bottom-content ul li {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  color: #1a2236;
+  list-style-type: none;
+  background: #98dede;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
