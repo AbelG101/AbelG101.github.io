@@ -253,7 +253,7 @@ footer img {
   margin-bottom: 20px;
 }
 
-.form-area>input {
+.form-area > input {
   padding: 10px 20px;
   background: #fff;
   border: 1px solid #dfdfe0;
@@ -291,7 +291,7 @@ footer img {
   text-align: center;
 }
 
-.form-area input:focus, .form-area textarea:focus {
+.form-area input:focus,
+.form-area textarea:focus {
   outline: 1px solid #111622;
 }
-
