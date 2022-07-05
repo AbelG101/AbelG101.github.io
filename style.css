@@ -232,3 +232,38 @@ footer img {
 }
 
 /* contact me */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-content h1 {
+  margin-top: 40px;
+}
+
+.contact-section .heading-content :not(img) {
+  padding: 0 20px;
+}
+
+.form-area {
+  display: inherit;
+  flex-direction: column;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.form-area>input {
+  padding: 10px 20px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+  outline: none;
+}
