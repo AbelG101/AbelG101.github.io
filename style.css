@@ -267,3 +267,31 @@ footer img {
   color: #1a2236;
   outline: none;
 }
+
+.form-area > textarea {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  outline: none;
+}
+
+.form-area button {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.form-area input:focus, .form-area textarea:focus {
+  outline: 1px solid #111622;
+}
+
