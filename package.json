@@ -10,13 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/AbelG101/Portfolio-setup-and-mobile-version-skeleton.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AbelG101/Portfolio-setup-and-mobile-version-skeleton/issues"
   },
   "homepage": "https://github.com/AbelG101/Portfolio-setup-and-mobile-version-skeleton#readme",
+  "keywords": [],
   "devDependencies": {
     "hint": "^7.0.1",
     "stylelint": "^13.13.1",
