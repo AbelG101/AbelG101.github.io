@@ -301,3 +301,15 @@ footer img {
 .form-area textarea:focus {
   outline: 1px solid #111622;
 }
+
+.desktop-image1 {
+  display: none;
+}
+
+.dots-img {
+  display: none;
+}
+
+.works-section-img {
+  display: none;
+}
