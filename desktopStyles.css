@@ -308,3 +308,13 @@ main .contact-section form {
   animation: background-switch 1s;
   animation-iteration-count: infinite;
 }
+
+@keyframes background-switch {
+  100% {
+    background-color: #1c528a;
+  }
+
+  0% {
+    background-color: #e2505c;
+  }
+}
