@@ -105,3 +105,8 @@ main .dots-img{
   font-size: 110px;
   margin: 80px;
 }
+
+.works-section .projects-container {
+  display: flex;
+  flex-direction: row;
+}
