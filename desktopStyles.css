@@ -110,3 +110,10 @@ main .dots-img{
   display: flex;
   flex-direction: row;
 }
+
+.works-section .projects-container:nth-last-child(-n+4) .bottom-content, 
+.works-section .projects-container:nth-child(4),
+.works-section .projects-container:nth-child(6) 
+{
+  display: none;
+}
