@@ -125,3 +125,34 @@ main .dots-img{
   width: 75%;
   height: 558px;
 }
+
+.projects-container .proj-content .bottom-content {
+  position: absolute;
+  padding: 30px 50px;
+  top: 200px;
+  bottom: 0;
+  width: 100%;
+}
+
+.projects-container  .bottom-content h3 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.projects-container  .bottom-content ul li {
+  padding: 10px 20px;
+  margin: 30px 20px 60px 0;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.projects-container .bottom-content .see-project-btn {
+  background-color: #fff;
+  color: #1a2236;
+}
+
+.projects-container .bottom-content .see-project-btn:hover{
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
