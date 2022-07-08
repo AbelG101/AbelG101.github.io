@@ -160,3 +160,32 @@ main .dots-img{
 main .works-section {
   position: relative;
 }
+
+.works-section .projects-container .dots-img {
+  position: relative;
+  top: 80px;
+  right: 200px;
+}
+
+.projects-container.p2 img {
+  width: 465px;
+  height: 270px;
+}
+
+.projects-container .works-section-img {
+  display: block;
+}
+
+.projects-container.p5 img {
+  display: block;
+  position: absolute;
+  top: 905px;
+  right: 0;
+  width: 664.2px;
+  height: 270px;
+}
+
+.projects-container.p3 img {
+  width: 800px;
+  height: 465px;
+}
