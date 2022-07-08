@@ -202,3 +202,11 @@ main .about-section {
   flex-basis: 0;
   flex-grow: 1;
 }
+
+.about-section .about-content {
+  padding: 20px 50px;
+}
+
+.about-content h1 {
+  font-size: 110px;
+}
