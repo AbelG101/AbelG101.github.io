@@ -232,3 +232,12 @@ main .about-section {
   width: 284px;
   height: 284px;
 }
+
+/* -----------------contact-section---------------------- */
+
+.contact-section {
+  justify-content: center;
+  align-items: center;
+  background: #F9F9FA;
+  position: relative;
+}
