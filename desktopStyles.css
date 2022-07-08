@@ -15,6 +15,11 @@ main .top-nav {
   list-style-type: none;
 }
 
+main footer ul li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
 .top-nav ul li {
   margin-right: 40px;
   display: inline-block;
@@ -44,6 +49,14 @@ footer .desktop-image1 {
   height: 100%;
   margin: 0;
 }
+
+main > footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 
 .headline-section footer {
   flex-grow: 1;
@@ -284,17 +297,4 @@ main .contact-section form {
   position: absolute;
   bottom: 0;
   right: 0;
-}
-
-main > footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-
-main footer ul li {
-  list-style-type: none;
-  margin-left: 20px;
 }
