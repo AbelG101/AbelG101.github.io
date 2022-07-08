@@ -53,3 +53,32 @@ footer .desktop-image1 {
 footer :nth-child(2n) {
   display: none;
 }
+
+.headline-section .content {
+  padding: 150px 50px 0 100px;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.content header h1 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 100%;
+  color: #1A2236;
+}
+
+.headline-section .content p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1A2236;
+  margin: 50px 0;
+  margin-right: 30px;
+  width: 484px;
+}
