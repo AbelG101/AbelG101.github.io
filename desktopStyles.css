@@ -61,6 +61,12 @@ footer :nth-child(2n) {
   flex-basis: 0;
 }
 
+.works-section h1 {
+  transform: rotate(-90deg);
+  font-size: 110px;
+  margin: 80px;
+}
+
 .headline-section .content header h1 {
   font-family: 'Playfair Display', serif;
   font-style: normal;
@@ -99,12 +105,6 @@ main .dots-img {
 }
 
 /* ---------------------WORKS-SECTION----------------------- */
-
-.works-section h1 {
-  transform: rotate(-90deg);
-  font-size: 110px;
-  margin: 80px;
-}
 
 .works-section .projects-container {
   display: flex;
@@ -160,6 +160,18 @@ main .dots-img {
   position: relative;
   top: 80px;
   right: 200px;
+}
+
+.contact-section .heading-content img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 243px;
+}
+
+main .about-cards .about-card-img img {
+  width: 284px;
+  height: 284px;
 }
 
 .works-section .projects-container.p2 img {
@@ -231,11 +243,6 @@ main .about-cards .about-card-img {
   display: block;
 }
 
-main .about-cards .about-card-img img {
-  width: 284px;
-  height: 284px;
-}
-
 /* -----------------contact-section---------------------- */
 
 .contact-section {
@@ -243,13 +250,6 @@ main .about-cards .about-card-img img {
   align-items: center;
   background: #f9f9fa;
   position: relative;
-}
-
-.contact-section .heading-content img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 243px;
 }
 
 main .contact-section .heading-content :not(img) {
