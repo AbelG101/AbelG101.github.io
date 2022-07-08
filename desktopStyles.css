@@ -105,6 +105,11 @@ main > footer {
   padding: 20px 40px;
   width: 254px;
   height: 70px;
+  transition: 0.2s ease-in;
+}
+
+.headline-section .start-collab-btn:hover {
+  transform: scale(1.03,1.03);
 }
 
 main .dots-img {
