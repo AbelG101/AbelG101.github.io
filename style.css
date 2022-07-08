@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+.top-nav {
+  display: none;
+}
+ 
 .link-btn {
   display: inline-block;
   font-family: 'Poppins', sans-serif;
@@ -207,7 +211,7 @@ footer img {
   margin: 20px 0;
 }
 
-.about-section img {
+.about-cards div:not(:last-child) img {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -215,7 +219,7 @@ footer img {
   width: 102px;
 }
 
-.about-section div {
+ .about-cards div {
   margin: 20px 0;
   padding: 50px 40px;
   position: relative;
