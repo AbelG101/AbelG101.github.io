@@ -252,3 +252,10 @@ main .about-section {
 main .contact-section .heading-content :not(img) {
   padding: 0 100px;
 }
+
+.contact-section .heading-content h1 {
+  font-size: 110px;
+  text-align: center;
+}
+
+
