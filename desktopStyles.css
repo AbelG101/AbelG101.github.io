@@ -263,3 +263,17 @@ main .contact-section form {
   flex-flow: row wrap;
   width: 542px;
 }
+
+.contact-section form input[type=text],
+.contact-section form input[type=email]
+{
+  width: 47.5%;
+}
+
+.contact-section form input[type=text] {
+  margin-right: 5%;
+}
+
+.contact-section form textarea {
+  width: 100%;
+}
