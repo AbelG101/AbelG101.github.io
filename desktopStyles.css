@@ -97,3 +97,11 @@ main .dots-img{
   bottom: 0;
   right: 0;
 }
+
+/* ---------------------WORKS-SECTION----------------------- */
+
+.works-section h1{
+  transform: rotate(-90deg);
+  font-size: 110px;
+  margin: 80px;
+}
