@@ -258,4 +258,8 @@ main .contact-section .heading-content :not(img) {
   text-align: center;
 }
 
-
+main .contact-section form {
+  flex-direction: row;
+  flex-flow: row wrap;
+  width: 542px;
+}
