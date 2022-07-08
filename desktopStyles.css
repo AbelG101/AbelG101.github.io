@@ -1,3 +1,31 @@
 main > header {
   display: none;
 }
+
+main .top-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0.5px 0px #DDDFE6;
+  height: 100px;
+}
+
+.top-nav ul {
+  list-style-type: none;
+}
+
+.top-nav ul li {
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.top-nav ul li a{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #1a2236;
+}
