@@ -36,3 +36,16 @@ main .headline-section {
   height: auto;
   margin-bottom: 100px;
 }
+
+footer .desktop-image1 {
+  display: block;
+  min-height: 678.4px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.headline-section footer {
+  flex-grow: 1;
+  flex-basis: 0;
+}
