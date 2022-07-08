@@ -210,3 +210,9 @@ main .about-section {
 .about-content h1 {
   font-size: 110px;
 }
+
+.about-section .about-content .get-cv-btn {
+  width: 254px;
+  height: 60px;
+  line-height: 30px;
+}
