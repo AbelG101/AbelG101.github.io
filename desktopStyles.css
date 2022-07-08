@@ -278,3 +278,10 @@ main .contact-section form {
 .contact-section form textarea {
   width: 100%;
 }
+
+.contact-section .bottom-right-img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
