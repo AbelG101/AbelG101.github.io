@@ -238,6 +238,17 @@ main .about-section {
 .contact-section {
   justify-content: center;
   align-items: center;
-  background: #F9F9FA;
+  background: #f9f9fa;
   position: relative;
+}
+
+.contact-section .heading-content img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 243px;
+}
+
+main .contact-section .heading-content :not(img) {
+  padding: 0 100px;
 }
