@@ -105,11 +105,14 @@ main > footer {
   padding: 20px 40px;
   width: 254px;
   height: 70px;
+<<<<<<< HEAD
   transition: 0.2s ease-in;
 }
 
 .headline-section .start-collab-btn:hover {
   transform: scale(1.03,1.03);
+=======
+>>>>>>> desktop-version
 }
 
 main .dots-img {
@@ -302,6 +305,7 @@ main .contact-section form {
   bottom: 0;
   right: 0;
 }
+<<<<<<< HEAD
 
 .link-btn {
   display: inline-block;
@@ -323,3 +327,5 @@ main .contact-section form {
     background-color: #e2505c;
   }
 }
+=======
+>>>>>>> desktop-version
