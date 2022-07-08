@@ -61,7 +61,7 @@ footer :nth-child(2n) {
   flex-basis: 0;
 }
 
-.content header h1 {
+.headline-section .content header h1 {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 400;
@@ -206,7 +206,7 @@ main .about-section {
   padding: 20px 50px;
 }
 
-.about-content h1 {
+.about-section .about-content h1 {
   font-size: 110px;
 }
 
@@ -230,6 +230,7 @@ main .about-section {
 main .about-cards .about-card-img {
   display: block;
 }
+
 .about-cards .about-card-img img {
   width: 284px;
   height: 284px;
@@ -261,7 +262,6 @@ main .contact-section .heading-content :not(img) {
 }
 
 main .contact-section form {
-  flex-direction: row;
   flex-flow: row wrap;
   width: 542px;
 }
