@@ -50,7 +50,7 @@ footer .desktop-image1 {
   flex-basis: 0;
 }
 
-footer :nth-child(2n) {
+.headline-section footer :nth-child(2n) {
   display: none;
 }
 
@@ -284,4 +284,17 @@ main .contact-section form {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+main > footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+main footer ul li {
+  list-style-type: none;
+  margin-left: 20px;
 }
