@@ -197,3 +197,8 @@ main .about-section {
   flex-direction: row-reverse;
   padding: 50px 100px;
 }
+
+.about-section > div {
+  flex-basis: 0;
+  flex-grow: 1;
+}
