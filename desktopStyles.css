@@ -82,3 +82,18 @@ footer :nth-child(2n) {
   margin-right: 30px;
   width: 484px;
 }
+
+.headline-section .start-collab-btn {
+  padding: 20px 40px;
+  width: 254px;
+  height: 70px;
+}
+
+main .dots-img{
+  display: block;
+  position: absolute;
+  max-width: 175px;
+  max-height: 175px;
+  bottom: 0;
+  right: 0;
+}
