@@ -111,13 +111,13 @@ main .dots-img {
   flex-direction: row;
 }
 
-.projects-container .proj-content .bottom-content .works-section .projects-container:nth-last-child(-n+4) .bottom-content,
+.works-section .projects-container:nth-last-child(-n+4) .bottom-content,
 .works-section .projects-container:nth-child(4),
 .works-section .projects-container:nth-child(6) {
   display: none;
 }
 
-.projects-container .proj-content {
+.works-section .projects-container .proj-content {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -125,7 +125,7 @@ main .dots-img {
   height: 558px;
 }
 
-.projects-container .proj-content .bottom-content {
+.works-section .projects-container .proj-content .bottom-content {
   position: absolute;
   padding: 30px 50px;
   top: 200px;
@@ -133,31 +133,27 @@ main .dots-img {
   width: 100%;
 }
 
-.projects-container .bottom-content h3 {
+.works-section .projects-container .bottom-content h3 {
   font-weight: 700;
   font-size: 60px;
 }
 
-.projects-container  .bottom-content ul li {
+.works-section .projects-container .bottom-content ul li {
   padding: 10px 20px;
   margin: 30px 20px 60px 0;
   font-weight: 300;
   font-size: 20px;
 }
 
-.projects-container .bottom-content .see-project-btn {
+.works-section .projects-container .bottom-content .see-project-btn {
   background-color: #fff;
   color: #1a2236;
 }
 
-.projects-container .bottom-content .see-project-btn:hover {
+.works-section .projects-container .bottom-content .see-project-btn:hover {
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;
-}
-
-main .works-section {
-  position: relative;
 }
 
 .works-section .projects-container .dots-img {
@@ -166,16 +162,16 @@ main .works-section {
   right: 200px;
 }
 
-.projects-container.p2 img {
+.works-section .projects-container.p2 img {
   width: 465px;
   height: 270px;
 }
 
-.projects-container .works-section-img {
+.works-section .projects-container .works-section-img {
   display: block;
 }
 
-.projects-container.p5 img {
+.works-section .projects-container.p5 img {
   display: block;
   position: absolute;
   top: 905px;
@@ -184,9 +180,13 @@ main .works-section {
   height: 270px;
 }
 
-.projects-container.p3 img {
+.works-section .projects-container.p3 img {
   width: 800px;
   height: 465px;
+}
+
+main .works-section {
+  position: relative;
 }
 
 /* ------------------About-section---------------------- */
@@ -202,15 +202,15 @@ main .about-section {
   flex-grow: 1;
 }
 
-.about-section .about-content {
+main .about-section .about-content {
   padding: 20px 50px;
 }
 
-.about-section .about-content h1 {
+main .about-section .about-content h1 {
   font-size: 110px;
 }
 
-.about-section .about-content .get-cv-btn {
+main .about-section .about-content .get-cv-btn {
   width: 254px;
   height: 60px;
   line-height: 30px;
@@ -221,7 +221,7 @@ main .about-section {
   grid-template-columns: 1fr 1fr;
 }
 
-.about-section .about-cards > div {
+main .about-section .about-cards > div {
   margin: 0;
   min-height: 0;
   min-width: 0;
@@ -231,7 +231,7 @@ main .about-cards .about-card-img {
   display: block;
 }
 
-.about-cards .about-card-img img {
+main .about-cards .about-card-img img {
   width: 284px;
   height: 284px;
 }
@@ -256,7 +256,7 @@ main .contact-section .heading-content :not(img) {
   padding: 0 100px;
 }
 
-.contact-section .heading-content h1 {
+main .contact-section .heading-content h1 {
   font-size: 110px;
   text-align: center;
 }
