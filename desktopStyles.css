@@ -117,3 +117,11 @@ main .dots-img{
 {
   display: none;
 }
+
+.projects-container .proj-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 558px;
+}
