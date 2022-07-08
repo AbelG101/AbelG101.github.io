@@ -228,7 +228,11 @@ main .about-section {
   min-width: 0;
 }
 
+main .about-cards .about-card-img {
+  display: block;
+}
 .about-cards .about-card-img img {
+
   width: 284px;
   height: 284px;
 }
